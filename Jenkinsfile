@@ -2,7 +2,7 @@ pipeline {
  //agent any
  
 agent {
-        label('controleur')
+        label('slave1')
     }
     stages {
         stage('Compile') {
